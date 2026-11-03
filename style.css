@@ -206,6 +206,19 @@ body {
   border-radius: 8px;
   padding: 1.5rem;
 }
+.contact-info {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+}
+
 .footer {
   background-color: var(--ink);
   color: var(--white);
