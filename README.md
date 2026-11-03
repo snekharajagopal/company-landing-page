@@ -8,7 +8,7 @@ built using HTML and CSS.
 
 ## Screenshot
 
-![Landing Page Screenshot](images/screenshot.png)
+![Landing Page Screenshot](image/screenshot.png)
 
 ## Features
 
