@@ -1,0 +1,106 @@
+:root {
+  /* Main colors */
+  --brand: #5b2a86;
+  --accent: #f5703c;
+  --ink: #1b1b2f;
+  --muted: #555555;
+  --surface: #f0eefb;
+  --white: #ffffff;
+  --line: #dad7ee;
+  --soft-brand: #e7e3ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--white);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--brand);
+  color: var(--white);
+  padding: 16px 32px;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 24px;
+}
+
+.navbar a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: var(--accent);
+}
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 32px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--surface);
+  padding: 32px;
+}
+
+.hero h1 {
+  color: var(--ink);
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  color: var(--ink);
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--white);
+  padding: 0.8em 1.5em;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--brand);
+}
+.footer {
+  background-color: var(--ink);
+  color: var(--white);
+  text-align: center;
+  padding: 24px;
+}
